@@ -20,18 +20,18 @@ body {
   padding: 16px;
 }
 .nav img {
-  width: 130px;
+  width: 180px;
 }
-.nav-btn {
+.nav > button {
   background-color: #fff;
   color: #000;
-  border-radius: 16px;
+  border-radius: 10px;
   padding: 10px;
   cursor: pointer;
   border: none;
-  font-size: 13px;
+  font-size: 16px;
 }
-.nav-btn:hover   {
+.nav > button:hover {
   background-color: #530;
 }
 main {
@@ -48,22 +48,22 @@ main {
 main h1 {
   color: #fff;
   font-family: Inter;
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 500;
   letter-spacing: -0.96px;
 }
 main > p {
   color: hsla(0, 0%, 100%, 0.7);
   font-family: Roboto Mono, serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 13px 0;
+  margin: 20px 0;
 }
 .minted p {
   color: hsla(0, 0%, 100%, 0.7);
   font-family: Roboto Mono, serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -73,8 +73,8 @@ main > p {
   justify-content: space-between;
   border-top: 1px solid hsla(0, 0%, 100%, 0.2);
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
-  padding: 6px 0;
-  margin: 10px 0;
+  padding: 12px 0;
+  margin: 15px 0;
 }
 
 .get-started-btn {
@@ -82,7 +82,7 @@ main > p {
   color: #000;
   text-align: center;
   font-family: Roboto Mono;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
   padding: 10px 0;
   border-radius: 16px;
@@ -131,22 +131,23 @@ main > p {
 
 
 @media screen and (max-width: 900px) {
-  nav img {
-    width: 110px;
+  .nav img {
+    width: 160px;
   }
-  nav button {
+  .nav button {
     padding: 7px;
-    font-size: 12px;
+    font-size: 16px;
   }
   main {
     width: 60%;
     height: 60%;
+    margin-top: 2rem;
   }
   main h1 {
-    font-size: 24px;
+    font-size: 30px;
   }
   .get-started-btn {
-    font-size: 11px;
+    font-size: 16px;
   }
 }
 
@@ -155,12 +156,12 @@ main > p {
   .animated-bg-container {
     display: none;
   }
-  nav img {
-    width: 90px;
+  .nav img {
+    width: 130px;
   }
   main {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin: 3rem auto;
   }
   main h1 {
